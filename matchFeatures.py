@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-fullImg = cv2.imread("images/ryan.jpg")
-image = cv2.imread("images/ryan2.jpg")
+fullImg = cv2.imread("ryan.jpg")
+image = cv2.imread("ryan2.jpg")
 
 ratio=0.75
 reprojThresh=4.0
